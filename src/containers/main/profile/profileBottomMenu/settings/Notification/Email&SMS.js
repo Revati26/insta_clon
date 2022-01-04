@@ -1,15 +1,15 @@
 import React from 'react'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
-function Privacy() {
+function Personalinfo() {
     return (
         <View style={styles.container}>
-            <Text>Privacy</Text>
+            <Text>   </Text>
         </View>
     )
 }
 
-export default Privacy;
+export default Personalinfo;
 
 const styles = StyleSheet.create({
     container: {

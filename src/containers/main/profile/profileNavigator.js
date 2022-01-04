@@ -18,7 +18,7 @@ import DiscoverPeople from './profileBottomMenu/discoverPeople/DiscoverPeople';
 import Covid from './profileBottomMenu/covid/Covid';
 import FollowInvite from './profileBottomMenu/settings/FollowInvite';
 import Savedlogininformation from './profileBottomMenu/settings/Security/Two-factor authentication/FactorsAuth';
-import  Captions from './profileBottomMenu/settings/Account/Captions';
+import  Activitystatus from './profileBottomMenu/settings/Privacy/Activitystatus';
 
 
 
@@ -28,7 +28,7 @@ export default function profileNavigator() {
   return (
     <Stack.Navigator>
       
-    <Stack.Screen name="Captions" component = {Captions}/>
+    <Stack.Screen name="Activitystatus" component = {Activitystatus}/>
     
     
     <Stack.Screen
